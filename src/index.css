@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background: url('./assets/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100% ; */
+  background-image: url('./assets/bg.jpg');
+  background-position-x: center;
+ 
+   /* background-repeat: repeat-x;  */
+
+   .bg-btn {
+    background: linear-gradient(
+      90deg,
+      rgb(162, 56, 230),
+      rgb(222, 57, 117),
+      rgb(234, 135, 125)
+    );
+  }
+}
+
