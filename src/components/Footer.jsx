@@ -3,8 +3,8 @@ import AppButton from './AppButton'
 
 const Footer = () => {
   return (
-    <div className='bg-footer py-28'>
-      <h1 className='text-center text-white font-bold text-[32px] md:text-[40px] pb-6 lead'>
+    <div className='bg-footer py-24'>
+      <h1 className='text-center text-white font-bold text-[32px] md:text-[40px] pb-8 leading-none'>
       Ready to build?<br/>
 Get started today
       </h1>

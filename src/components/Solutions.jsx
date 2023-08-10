@@ -106,7 +106,7 @@ const Solutions = () => {
 cards.map((item)=>
 (
     
-        <div className='bg-slate-950 border-black py-5 px-3 rounded-xl  '>
+        <div className='bg-card py-5 px-3 rounded-xl  '>
         <div className='flex items-center gap-4 mb-2'>
             <img src={item.icon} alt='' className='bg-slate-800 border-gray-400 rounded-xl w-[20%] p-1'/>
             

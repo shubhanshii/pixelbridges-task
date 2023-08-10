@@ -44,7 +44,7 @@ body{
 .bg-navbar{
   background-color: black;
   transition: .2s ease; 
-
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .bg-card{
 background: linear-gradient(rgba(30, 27, 37, 0.67), rgb(0, 0, 0));
