@@ -29,7 +29,7 @@ window.addEventListener('scroll', changeColor)
                 <img src={Discord} alt='' className='lg:w-6 xl:w-10 h-3/4'/>
                 
                 </ul>
-   <img src={Logo} alt='' className='text-white font-bold text-xl md:text-3xl text-center lg:w-1/4 h-full w-1/2 xl:w-[17%] pr-24 pt-1 mx-auto md:w-1/3'/>
+   <img src={Logo} alt='' className=' flex justify-center items-center lg:w-1/4 h-full w-1/2 xl:w-[17%] lg:pr-24 pt-1 mx-auto md:w-1/4'/>
                 
                 
                 <div className='lg:flex gap-10 hidden cursor-pointer'>

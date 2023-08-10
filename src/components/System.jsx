@@ -10,7 +10,7 @@ const System = () => {
         <div className='w-40 mx-auto flex mb-10'>
             <AppButton>Learn More</AppButton>
         </div>
-        <div className='gap-7 flex flex-col lg:flex-row justify-center items-center text-left mx-2 lg:py-5 md:mx-36 lg:mx-10 xl:mx-28'>
+        <div className='gap-7 flex flex-col lg:flex-row justify-center items-center text-left mx-2 lg:py-5 md:mx-36 lg:mx-10 xl:mx-10 2xl:mx-20'>
             <div className=' p-7 rounded-lg bg-card'>
                 <h1 className='text-base pb-2 font-bold text-white'>Get to Market Faster</h1>
                 <p className='text-[15px] pb-1 font-semibold text-[#FFFFFF99]'>
