@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Twitter from '../assets/twitter.png'
 import Discord from '../assets/discord.png'
 import AppButton from  '../components/AppButton'
-import Menu from '../assets/menu-line.png'
+import Logo from '../assets/logo.png'
 
 const Navbar = () => {
 
@@ -30,8 +30,8 @@ window.addEventListener('scroll', changeColor)
                 
                 </ul>
              
-                 <h1 className='text-white font-bold text-xl md:text-3xl text-center lg:pr-20 xl:pr-96 '>METAFAB</h1>
-                 {/* <img src={Menu} alt='' className='hidden sm:visible'/> */}
+                 <img src={Logo} alt='' className='text-white font-bold text-xl md:text-3xl text-center lg:pr-20 xl:pr-96 lg:w-1/4 h-full w-1/2 xl:w-[40%] mx-auto md:w-1/3'/>
+                
                 
                 <div className='lg:flex gap-10 hidden'>
                 <ul>

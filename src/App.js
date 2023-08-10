@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
    <>
+   
    <Navbar/>
    <Herosection/>
    <Solutions/>
@@ -20,6 +21,8 @@ function App() {
    <System/>
    <Tools/>
    <Footer/>
+   
+  
    </>
   );
 }

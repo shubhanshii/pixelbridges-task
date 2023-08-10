@@ -90,10 +90,10 @@ const Solutions = () => {
 }
 ]
   return (
-    <div className='mt-24 px-5 lg:px-12 xl:px-72'>
+    <div className='mt-24 px-4 lg:px-12 xl:px-72'>
         <div className='text-center lg:px-20'>
-            <h1 className='text-5xl pb-10 font-semibold text-white'>The solutions we wish we had when building our games</h1>
-            <p className='text-slate-200 text-xl font-medium'>Interacting with blockchain systems should feel familiar for both players and developers. Read more about how our suite of tools makes this possible:</p>
+            <h1 className='text-[32px] md:text-5xl pb-10 font-bold text-white'>The solutions we wish we had when building our games</h1>
+            <p className='text-slate-200 text-lg md:text-xl font-semibold'>Interacting with blockchain systems should feel familiar for both players and developers. Read more about how our suite of tools makes this possible:</p>
         </div>
         <div className=' flex justify-center items-center'>
         <div className='mt-7 w-64 mb-10'>
