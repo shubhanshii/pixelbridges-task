@@ -5,6 +5,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Herosection from './components/Herosection';
 import Solutions from './components/Solutions';
+import Action from './components/Action';
+import System from './components/System';
+import Tools from './components/Tools';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
    <Navbar/>
    <Herosection/>
    <Solutions/>
+   <Action/>
+   <System/>
+   <Tools/>
+   <Footer/>
    </>
   );
 }
