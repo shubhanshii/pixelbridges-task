@@ -20,7 +20,7 @@ window.addEventListener('scroll', changeColor)
     <div className={color? 'bg-navbar' : ''}>
     <nav className='py-4'>
         <div className='lg:flex lg:justify-between px-5 md:px-10'>
-            <ul className=' lg:flex text-gray-400  text-lg lg:gap-4 xl:gap-6 hidden'>
+            <ul className=' lg:flex text-[#FFFFFFCC]  text-lg lg:gap-4 xl:gap-6 hidden'>
                 <li >Docs</li>
                 <li>SDKs</li>
                 <li>API Reference</li>
@@ -35,7 +35,7 @@ window.addEventListener('scroll', changeColor)
                 
                 <div className='lg:flex gap-10 hidden'>
                 <ul>
-                <li className='text-gray-400 text-lg'>Login</li></ul>
+                <li className='text-[#FFFFFFCC] text-lg'>Login</li></ul>
                 <div className='w-40'>
                   <AppButton>Get Started</AppButton>
                   
