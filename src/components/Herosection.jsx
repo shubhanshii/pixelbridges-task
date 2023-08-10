@@ -4,7 +4,7 @@ import Hero from '../assets/hero.png'
 
 const Herosection = () => {
   return (
-    <div>
+    <div className=''>
         <div className='flex flex-col justify-center items-center text-center pt-36 gap-8 px-3 md:px-6 xl:px-80 2xl:px-96 lg:px-36'>
             <h1 className='text-white text-5xl md:text-[55px] xl:text-6xl font-bold'>Frictionless blockchain games build with MetaFab</h1>
             <p className='text-gray-300 text-xl lg:text-[22px] font-semibold'>The free, end-to-end, self-serve solution for games and gamified apps to integrate powerful blockchain infrastructure in minutes, not months.</p>
