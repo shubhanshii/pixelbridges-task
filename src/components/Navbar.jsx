@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Twitter from '../assets/twitter.svg'
 import Discord from '../assets/discord.svg'
 import AppButton from  '../components/AppButton'
-import Logo from '../assets/logo.png'
+
 
 const Navbar = () => {
 
@@ -19,7 +19,7 @@ window.addEventListener('scroll', changeColor)
     <div className='fixed z-10 w-full'>
     <div className={color? 'bg-navbar' : ''}>
     <nav className='py-3'>
-        <div className='lg:flex lg:justify-around px-5 md:px-10'>
+        <div className='lg:flex lg:justify-between px-5 md:px-10'>
             <ul className=' lg:flex text-[#FFFFFFCC]  text-lg lg:gap-4 xl:gap-6 hidden cursor-pointer'>
                 <li >Docs</li>
                 <li>SDKs</li>
@@ -29,9 +29,8 @@ window.addEventListener('scroll', changeColor)
                 <img src={Discord} alt='' className='lg:w-6 xl:w-10 h-3/4'/>
                 
                 </ul>
-   <img src={Logo} alt='' className=' flex justify-center items-center lg:w-1/4 h-full w-1/2 xl:w-[17%] lg:pr-24 pt-1 mx-auto md:w-1/4'/>
-                
-                
+  
+              <h1 className='text-white font-bold text-center text-xl xl:px-52 xl:-ml-12 2xl:ml-12 mx-auto'>RABCAB</h1>
                 <div className='lg:flex gap-10 hidden cursor-pointer'>
                 <ul>
                 <li className='text-[#FFFFFFCC] text-lg'>Login</li></ul>
